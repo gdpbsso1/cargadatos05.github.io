@@ -1,5 +1,5 @@
-const SHEET_ID = 'TU_SHEET_ID_AQUI'; // Reemplaza con tu ID de hoja
-const API_KEY = 'TU_API_KEY_AQUI'; // Reemplaza con tu clave de API
+const SHEET_ID = '1iVVnO9rtg_h5BD2ZacX6R_vPYbRNyCnRLCB4rBp_Epg'; // Reemplaza con tu ID de hoja
+const API_KEY = 'AIzaSyAk5SNYAHZsgiBCTf1CeWzfceJXL-6aKio'; // Reemplaza con tu clave de API
 
 function loadData() {
 	const nro = document.getElementById('nro').value;
