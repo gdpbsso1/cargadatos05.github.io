@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Datos</title>
+</head>
+<body>
+	<h1>Formulario de Datos</h1>
+	<form id="dataForm">
+    	<label for="nro">Número:</label>
+    	<input type="text" id="nro" name="nro" required>
+    	<button type="button" onclick="loadData()">Cargar</button>
+    	<div id="formFields" style="display: none;">
+        	<label for="ape">Apellido:</label>
+        	<input type="text" id="ape" name="ape">
+        	<br>
+        	<label for="nom">Nombre:</label>
+        	<input type="text" id="nom" name="nom">
+        	<br>
+        	<button type="button" onclick="saveData()">Guardar</button>
+    	</div>
+	</form>
+
+	<script src="https://apis.google.com/js/api.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
